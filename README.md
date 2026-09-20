@@ -38,14 +38,17 @@ http://127.0.0.1:8000/docs
 
 ## Endpoints
 
-| Method | Path        | Description         |
-| ------ | ----------- | ------------------- |
-| `GET`  | `/holdings` | Return all holdings |
-| `POST` | `/holdings` | Add a new holding   |
+| Method   | Path        | Description                |
+| -------- | ----------- | -------------------------- |
+| `GET`    | `/holdings` | Return all holdings        |
+| `POST`   | `/holdings` | Add a new holding          |
+| `PUT`    | `/holdings` | Update an existing holding |
+| `DELETE` | `/holdings` | Delete a holding           |
 
 ## Roadmap
 
-- [ ] Update and delete holdings (full CRUD)
-- [ ] Add a transactions feature
+- [x] Update and delete holdings (full CRUD)
 - [ ] Replace in-memory storage with a database
+- [ ] Add live market data and gain/loss calculation
+- [ ] Add a transactions feature
 - [ ] Add authentication and user accounts
