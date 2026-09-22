@@ -1,2 +1,1 @@
-
-holdings = []
+from sqlalchemy as db
